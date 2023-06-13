@@ -1,0 +1,37 @@
+.checkout-overlay{
+    padding: 15px 20px;
+    background-color: white;
+    border-top: 3px solid rgb(88, 0, 221);
+    position: fixed;
+    width: 97vw !important;
+    bottom: 0px;
+}
+
+.checkout-overlay .overlay-content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.checkout-overlay div button:hover{
+    background-color: rgb(56, 2, 138);
+    transition: 0.5s;
+}
+.checkout-overlay div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.checkout-overlay div button{
+    padding: 10px 20px;
+    background-color: rgb(88, 0, 221);
+    color: white;
+    border-radius: 200px;
+    border: none;
+    margin: 10px 0px;
+}

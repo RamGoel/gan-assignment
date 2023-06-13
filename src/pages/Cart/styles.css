@@ -1,0 +1,29 @@
+.cart-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.cart-page div h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.cart-section{
+    min-width: 100vw;
+    height: 90vh;
+    overflow: scroll;
+}
+.cart-items-container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    min-width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

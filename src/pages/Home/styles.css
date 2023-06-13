@@ -1,0 +1,14 @@
+.cardBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+
+.page-top{
+    padding: 10px 0px;
+    text-align: center;
+}

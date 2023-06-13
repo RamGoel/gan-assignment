@@ -1,0 +1,13 @@
+.loader-bg{
+    height: 100vh;
+    width:100vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-text{
+    font-size: 15px;
+    transition: .5s;
+}

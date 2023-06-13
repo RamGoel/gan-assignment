@@ -1,0 +1,33 @@
+.header{
+    background-color: #f8f9f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.header img{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+    
+}
+
+.header .cart-div img{
+    width: 25px;
+    height: 25px;
+}
+
+.header .cart-div p{
+    font-size: 10px;
+    background-color: red;
+    border-radius: 200px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 10px;
+}
